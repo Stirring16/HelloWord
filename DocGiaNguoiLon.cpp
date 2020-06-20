@@ -8,6 +8,7 @@ using namespace std;
 void DocGiaNguoiLon::Nhap()
 {
 	cout << "\nNhap CMND: ";
+	cin.ignore();
 	getline(cin, CMND);
 }
 
