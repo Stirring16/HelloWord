@@ -9,7 +9,7 @@ void DocGiaTreEm::Nhap()
 {
 	
 	cout << "\nNhap nguoi dai dien: " << std::flush;
-	/*cin.clear();
+	/*cin.clear(); hello
 	cin.sync();*/
 	cin.ignore();
 	getline(cin, NguoiDaiDien);
