@@ -11,6 +11,7 @@ void DocGiaTreEm::Nhap()
 	cout << "\nNhap nguoi dai dien: " << std::flush;
 	/*cin.clear(); hello
 	cin.sync();*/
+	// new line
 	cin.ignore();
 	getline(cin, NguoiDaiDien);
 
