@@ -33,7 +33,7 @@ void CThuVien::Nhap()
 			Ds_DocGiaNguoiLon.push_back(x);
 			continue;
 		}
-		
+		// add new line
 
 		}
 		break;
