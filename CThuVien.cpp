@@ -16,27 +16,29 @@ void CThuVien::Nhap()
 		cout << "\n\t0. Thoat ";
 		cout << "\n\n\t Nhap lua chon: ";
 		cin >> luachon;
-		if (luachon = 1)
+		switch (luachon) {
+		case 1:
 		{
 			DocGiaTreEm x;
 			cout << "\n\tNhap thong tin doc gia: ";
 			x.Nhap();
 			Ds_DocGiaTreEm.push_back(x);
-			
+			continue;
 		}
-		else if(luachon == 2)
+		case 2:
 		{
 			DocGiaNguoiLon x;
 			cout << "\n\tNhap thong tin doc gia: ";
 			x.Nhap();
 			Ds_DocGiaNguoiLon.push_back(x);
+			continue;
 		}
-		else if(luachon == 0)
-		{
-			break;
+		
+
 		}
+		break;
 	}
-	
+
 }
 
 void CThuVien::Xuat()
@@ -57,7 +59,7 @@ void CThuVien::Xuat()
 
 /*float CThuVien::TongTienLamThe()
 {
-	
+
 }*/
 
 CThuVien::CThuVien()
@@ -67,4 +69,4 @@ CThuVien::CThuVien()
 CThuVien::~CThuVien()
 {
 
-}		
+}
